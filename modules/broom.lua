@@ -46,7 +46,7 @@ broom:bind({'shift'}, 'j', function()
 	local screen = win:screen()
 	local max = screen:frame()
 	f.x = max.x
-	f.y = max.y + (max.w / 2)
+  f.y = max.y / 2
 	f.w = max.w
 	f.h = max.h / 2
 	win:setFrame(f)
