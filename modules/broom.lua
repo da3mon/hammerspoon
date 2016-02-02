@@ -1,7 +1,7 @@
 broom = hs.hotkey.modal.new()
 
 function broom:entered() hs.alert 'MOVE' end
-broom:bind('control', 'g', 'POP', function() broom:exit() end)
+broom:bind('control', 'g', '🍶', function() broom:exit() end)
 broom:bind('', 'w', '', hs.hints.windowHints)
 
 broom:bind({'shift'}, 'h', function()

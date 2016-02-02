@@ -1,7 +1,7 @@
 sizer = hs.hotkey.modal.new()
 
 function sizer:entered() hs.alert 'RESIZE' end
-sizer:bind('control', 'g', 'POP', function() sizer:exit() end)
+sizer:bind('control', 'g', '🌮', function() sizer:exit() end)
 sizer:bind('', 'w', '', hs.hints.windowHints)
 
 sizer:bind({''}, 'h', function()
